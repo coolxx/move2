@@ -27,5 +27,28 @@ document.addEventListener('DOMContentLoaded',function (){
 			}
 			this.className='on2';
 		},false);
-	}		
+	}
+	// var oBtn=document.querySelector('.head_a2');
+	// var oBtn_nav=document.querySelector('.h_choose');
+	// var aBtn_nav=oBtn_nav.querySelectorAll('li');
+	// var aCh_item=document.querySelectorAll('.ch_item');
+	// oBtn.addEventListener('touchstart',function (ev){
+	// 	if(oBtn_nav.style.display=='none'){
+	// 		console.log(1)
+	// 		oBtn_nav.style.display='block';
+	// 		aCh_item[0].style.display='block';
+	// 		for(var i=1;i<aBtn_nav.length;i++){
+	// 			aBtn_nav[i].index=i;
+	// 			aBtn_nav[i].addEventListener('touchstart',function (ev){
+	// 				for(var j=0;j<aCh_item.length;j++){
+	// 					aBtn_nav[j].className='';
+	// 					aCh_item[j].style.display='none'
+	// 				}
+	// 				aBtn_nav[5].className='';
+	// 				this.className='active';
+	// 				aCh_item[this.index-1].style.display='block'
+	// 			},false)
+	// 		}
+	// 	};	
+	// },false);
 },false);
