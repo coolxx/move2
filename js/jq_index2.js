@@ -7,7 +7,4 @@ $(function(){
 		$(this).parent().hide();
 		$('.zg_tmc').hide();	
 	});
-	$(".head_a2").click(function(){
-	  $(".h_choose").toggle();
-	});
 })

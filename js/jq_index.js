@@ -8,7 +8,16 @@ $(function(){
 		$('.zg_tmc').hide();	
 	});
 	$('.head_a2').click(function(){
-		$('.h_choose').toggle();
+		$('#tgo').toggle();
+		var turn=$('.fanzhuan')[0];
+		if(turn.style.transform=='rotate(180deg)'){
+			turn.style.transform='rotate(0deg)';
+			turn.style.transition='0.5s'
+		}else{
+			turn.style.transform='rotate(180deg)';
+			turn.style.transition='0.5s'
+		}
+		$('.ch_item').eq(0).show();
 		var oBtn=document.querySelector('.head_a2');
 		var oBtn_nav=document.querySelector('.h_choose');
 		var aBtn_nav=oBtn_nav.querySelectorAll('li');
@@ -24,7 +33,6 @@ $(function(){
 				this.className='active';
 				aCh_item[this.index-1].style.display='block'
 			},false)
-		}
-		$('.ch_item').hide();
+		};
 	})
 })
