@@ -64,28 +64,33 @@ header img{
 	height: 2.275rem;
 	font-size: 0.7rem;
 	background:url(../image/h_jt.png) no-repeat 5.875rem center #f1f1f1;
+
 	text-align: center;
 	line-height: 2.275rem;
 	color: #333;
 }
 .h_choose > li:nth-child(1){
 	background: url(../image/cbf.png) no-repeat 1.05rem 0.7rem #f1f1f1;
+	background-size:1.05rem;
 }
 .h_choose > li:nth-child(1) a{
 	color: #e62929;
 }
 .ch_item{
 	width: 10.375rem;
+	height: 13.9rem;
 	position: absolute;
 	right: 0rem;
 	top:2.25rem;
 	z-index: 99999;
 	display: none;
 	background: #ffffff;
+	overflow-y: auto;
+	border-bottom: 0.05rem solid #ebeaea;
 }
 .ch_item li a{
 	width: 7.75rem;
-	height: 1.65rem;
+	height: 1.7rem;
 	display: block;
 	text-align: center;
 	line-height: 1.65rem;
